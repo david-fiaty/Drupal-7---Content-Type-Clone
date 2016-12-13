@@ -1,0 +1,36 @@
+<h3 id="project-description">Synopsis</h3>
+Content Type Clone allows Drupal users with the "Administer content types" permission 
+to clone content types in one click. 
+
+Access the content type list, click on "clone" for the one you want to clone, save the clone form.
+The module will then clone the clone the target content type, and copy all it fields to the 
+newly created content type.
+
+Content Type Clone also offers the options to:
+
+ * Copy all nodes from the source content type to the target content type
+ * Delete all nodes from the source content type after they have been copied to the target content type.
+
+The Content Type Clone module has been created in order to offer a simple way to clone content types in Drupal.
+<h3 id="project-requirements">Requirements</h3>
+No special requirements.
+<h3 id="project-recommended">Recommended modules</h3>
+<a href="https://www.drupal.org/project/token">Token</a> (https://www.drupal.org/project/token)<br>
+When the token module is enabled, tokens are available to create a name, a machine name
+and a description for cloned content types.
+<h3 id="project-pledges">Pledges</h3>
+I pledge to release a Drupal 8 version of Content Type Clone 
+<h3 id="project-related">Similar projects and how they are different</h3>
+<ul>
+<li>
+<a href="https://www.drupal.org/project/bundle_copy">Bundle Copy</a><br>
+This module will also allow you to clone a content type by exporting it, 
+replacing the required fields, and then importing the updated php code in order 
+to get a renamed copy of the content type that needs cloning.
+
+Bundle Copy has a lot of other great features but Content Type Clone focuses on 
+cloning a content type quickly and efficiently.
+Sometimes you just want to clone a content type in one click without having to 
+look at PHP code or perform too many actions.
+</li>
+</ul>
