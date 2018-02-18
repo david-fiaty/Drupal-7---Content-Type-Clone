@@ -14,7 +14,7 @@ CONTENTS OF THIS FILE
 INTRODUCTION
 ------------
 
-Content Type Clone allows users with the "Administer content types" permission 
+Content Type Clone alows users with the "Administer content types" permission 
 to clone content types in one click.
    
    
